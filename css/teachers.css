@@ -1,0 +1,161 @@
+#banner {
+  height: 1.96529968rem;
+}
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+#part2 {
+  position: relative;
+  background-color: #1e1e1e;
+  height: 3.84858044rem;
+}
+#part2 .bj {
+  position: absolute;
+  top: 0.50157729rem;
+  left: 50%;
+  margin-left: -1.83911672rem;
+  width: 3.67823344rem;
+  height: 1.85173502rem;
+  background: #1e1e1e url("../images/teacher_bj_03.jpg") no-repeat;
+  background-size: contain;
+}
+#part2 > h2 {
+  font-size: 0.11987382rem;
+  color: #dfdede;
+  text-align: center;
+  padding-top: 0.30283912rem;
+  padding-bottom: 0.1829653rem;
+}
+#part2 .box {
+  height: 1.49211356rem;
+  width: 3.67823344rem;
+  margin: 0 auto;
+  position: relative;
+}
+#part2 .box .box_left {
+  width: 1.45425868rem;
+  height: 0.82334385rem;
+  position: absolute;
+  left: 0.48580442rem;
+  top: 0.09463722rem;
+}
+#part2 .box .box_left img {
+  position: absolute;
+  width: 0.82334385rem;
+  height: 0.82334385rem;
+  left: 0;
+  top: 0;
+}
+#part2 .box .box_left span {
+  font-size: 0.2555205rem;
+  color: #7d7c7c;
+  position: absolute;
+  left: -0.06309148rem;
+  top: -0.12618297rem;
+  font-weight: bold;
+  font-family: Arial;
+}
+#part2 .box .box_left .dec {
+  position: absolute;
+  width: 0.78233438rem;
+  left: 0.66246057rem;
+  top: 0.12618297rem;
+}
+#part2 .box .box_left .dec h3 {
+  font-size: 0.07570978rem;
+  margin-bottom: 0.04416404rem;
+  color: #fff;
+}
+#part2 .box .box_left .dec p {
+  font-size: 0.04416404rem;
+  width: 0.78233438rem;
+  word-wrap: break-word;
+  color: #cac9c9;
+}
+#part2 .box .box_right {
+  width: 1.32492114rem;
+  height: 0.82334385rem;
+  position: absolute;
+  left: 1.94006309rem;
+  top: 0.66561514rem;
+}
+#part2 .box .box_right img {
+  position: absolute;
+  width: 0.82334385rem;
+  height: 0.82334385rem;
+  right: 0;
+  top: 0;
+}
+#part2 .box .box_right span {
+  font-size: 0.2555205rem;
+  color: #7d7c7c;
+  position: absolute;
+  right: -0.06309148rem;
+  top: -0.12618297rem;
+  font-weight: bold;
+  font-family: Arial;
+}
+#part2 .box .box_right .dec {
+  position: absolute;
+  width: 0.78233438rem;
+  right: 0.55520505rem;
+  top: 0.12618297rem;
+}
+#part2 .box .box_right .dec h3 {
+  font-size: 0.07570978rem;
+  margin-bottom: 0.04416404rem;
+  color: #fff;
+  text-align: right;
+}
+#part2 .box .box_right .dec p {
+  font-size: 0.04416404rem;
+  width: 0.78233438rem;
+  word-wrap: break-word;
+  color: #cac9c9;
+}
+#part2 .box2 .box_left {
+  left: 0.20820189rem;
+}
+#part2 .box2 .box_left .dec {
+  top: 0.23343849rem;
+}
+#part2 .box2 .box_right {
+  left: 1.69085174rem;
+}
+#part2 .box2 .box_right .dec {
+  top: 0.39116719rem;
+}
+#part3 {
+  height: 2.5615142rem;
+  background-color: #f2f2f2;
+  position: relative;
+}
+#part3 .bj {
+  font-size: 0.5615142rem;
+  color: #fff;
+  position: absolute;
+  top: 0.61198738rem;
+  left: 1.00946372rem;
+}
+#part3 h2 {
+  padding-top: 0.17981073rem;
+  font-size: 0.11671924rem;
+  color: #1e1e1e;
+  padding-bottom: 0.05362776rem;
+  text-align: center;
+}
+#part3 h3 {
+  width: 0.41009464rem;
+  height: 0.41009464rem;
+  margin: 0 auto;
+  background: url("../images/tobeture.png") no-repeat center;
+  background-size: contain;
+  position: relative;
+  z-index: 2;
+}
+#part4 {
+  height: 3.77287066rem;
+  background: #1e1e1e url("../images/teacher_bj2_03.jpg") no-repeat 2.50473186rem 1.01577287rem;
+  background-size: 2.05047319rem;
+}
