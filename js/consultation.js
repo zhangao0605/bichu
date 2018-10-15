@@ -2,51 +2,74 @@ $(function () {
     var pageNo = 1
     var totalPage = 150
     var totalRecords = 1
-    //Éú³É·ÖÒ³
-    //ÓÐÐ©²ÎÊýÊÇ¿ÉÑ¡µÄ£¬±ÈÈçlang£¬Èô²»´«ÓÐÄ¬ÈÏÖµ
+    //ï¿½ï¿½ï¿½É·ï¿½Ò³
+    //ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½Ñ¡ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½langï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Öµ
     kkpager.generPageHtml({
         pno: pageNo,
-        //×ÜÒ³Âë
+        //ï¿½ï¿½Ò³ï¿½ï¿½
         isGoPage: false,
         isShowTotalPage: false,
         isShowTotalRecords: false,
         total: totalPage,
-        //×ÜÊý¾ÝÌõÊý
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         totalRecords: totalRecords,
-        mode: 'click',//Ä¬ÈÏÖµÊÇlink£¬¿ÉÑ¡link»òÕßclick
+        mode: 'click',//Ä¬ï¿½ï¿½Öµï¿½ï¿½linkï¿½ï¿½ï¿½ï¿½Ñ¡linkï¿½ï¿½ï¿½ï¿½click
         click: function (n) {
             // do something
-            //ÊÖ¶¯Ñ¡ÖÐ°´Å¥
+            //ï¿½Ö¶ï¿½Ñ¡ï¿½Ð°ï¿½Å¥
             this.selectPage(n);
             return false;
         }
         /*
          ,lang				: {
-         firstPageText			: 'Ê×Ò³',
-         firstPageTipText		: 'Ê×Ò³',
+         firstPageText			: 'ï¿½ï¿½Ò³',
+         firstPageTipText		: 'ï¿½ï¿½Ò³',
          lastPageText			: 'Î²Ò³',
          lastPageTipText			: 'Î²Ò³',
-         prePageText				: 'ÉÏÒ»Ò³',
-         prePageTipText			: 'ÉÏÒ»Ò³',
-         nextPageText			: 'ÏÂÒ»Ò³',
-         nextPageTipText			: 'ÏÂÒ»Ò³',
-         totalPageBeforeText		: '¹²',
+         prePageText				: 'ï¿½ï¿½Ò»Ò³',
+         prePageTipText			: 'ï¿½ï¿½Ò»Ò³',
+         nextPageText			: 'ï¿½ï¿½Ò»Ò³',
+         nextPageTipText			: 'ï¿½ï¿½Ò»Ò³',
+         totalPageBeforeText		: 'ï¿½ï¿½',
          totalPageAfterText		: 'Ò³',
-         currPageBeforeText		: 'µ±Ç°µÚ',
+         currPageBeforeText		: 'ï¿½ï¿½Ç°ï¿½ï¿½',
          currPageAfterText		: 'Ò³',
          totalInfoSplitStr		: '/',
-         totalRecordsBeforeText	: '¹²',
-         totalRecordsAfterText	: 'ÌõÊý¾Ý',
-         gopageBeforeText		: '?×ªµ½',
-         gopageButtonOkText		: 'È·¶¨',
+         totalRecordsBeforeText	: 'ï¿½ï¿½',
+         totalRecordsAfterText	: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+         gopageBeforeText		: '?×ªï¿½ï¿½',
+         gopageButtonOkText		: 'È·ï¿½ï¿½',
          gopageAfterText			: 'Ò³',
-         buttonTipBeforeText		: 'µÚ',
+         buttonTipBeforeText		: 'ï¿½ï¿½',
          buttonTipAfterText		: 'Ò³'
          }*/
     }, true);
-    $('.za_table_right_con').click(function(){
-    console.log($(this).attr('data'))
-        $('.z_list_of_articles').css({display:'none'})
-        $('.z_list_of_articles_deatil').css({display:'block'})
+    $('.za_table_right_con').click(function () {
+        console.log($(this).attr('data'))
+        $('.z_list_of_articles,.z_first').css({display: 'none'})
+        $('.z_list_of_articles_deatil').css({display: 'block'})
+        $('body').addClass('z_de_bg')
+        $('.z_isshowDETAIL').css({display: 'inline-block'})
+        $('html,body').animate({scrollTop: 0}, 'fast')
+    })
+    $('.z_tbable_click_1 li').click(function () {
+        console.log($(this).index())
+        $('.z_tbable_click_1 li').eq($(this).index()).addClass('z_bo_line_red').find('div').addClass('z_bo_line_block').removeClass('z_bo_line_none')
+        $('.z_tbable_click_1 li').eq($(this).index()).siblings().removeClass('z_bo_line_red').find('div').removeClass('z_bo_line_block').addClass('z_bo_line_none')
+    })
+    $('.z_navbarto').click(function () {
+        $('html,body').animate({scrollTop: 0}, 'slow')
+        console.log($(this).attr('data'))
+        if ($(this).attr('data') == 2) {
+            $('.z_list_of_articles,.z_first').css({display: 'block'})
+            $('.z_list_of_articles_deatil').css({display: 'none'})
+            $('body').removeClass('z_de_bg')
+            $('.z_isshowDETAIL').css({display: 'none'})
+            // $('html,body').animate({scrollTop:0},'fast')
+        } else if ($(this).attr('data') == 1) {
+
+        } else if ($(this).attr('data') == 0) {
+
+        }
     })
 });
