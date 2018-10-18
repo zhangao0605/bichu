@@ -1,0 +1,108 @@
+#banner {
+  overflow: hidden;
+  height: 1.95583596rem;
+}
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+#part3 {
+  padding-top: 0.20189274rem;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+#part3 .content {
+  width: 3.65930599rem;
+  margin: 0 auto;
+}
+#part3 .content .title {
+  width: 0.95268139rem;
+  height: 0.27444795rem;
+  margin-bottom: 0.12933754rem;
+  background-color: #3d3d3d;
+  position: relative;
+}
+#part3 .content .title h2 {
+  line-height: 0.27444795rem;
+  font-size: 0.14195584rem;
+  color: #fff;
+  float: left;
+  position: relative;
+  width: 0.49211356rem;
+  text-align: center;
+}
+#part3 .content .title h2:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 0.21766562rem;
+  background-color: #959595;
+  right: -1px;
+  top: 0.03470032rem;
+}
+#part3 .content .title h3 {
+  float: left;
+  padding-top: 0.07255521rem;
+  padding-left: 0.04416404rem;
+  line-height: 0.20189274rem;
+  font-size: 0.08201893rem;
+  color: #b6b6b6;
+}
+#part3 .content .title:before {
+  content: '';
+  position: absolute;
+  height: 0.27444795rem;
+  width: 3.15457413rem;
+  background-color: #3d3d3d;
+  right: 0.95268139rem;
+  top: 0;
+}
+#part3 .content .case {
+  padding-bottom: 0.0851735rem;
+}
+#part3 .content .case li {
+  width: 0.81388013rem;
+  height: 0.81388013rem;
+  background: url("../images/case1_03.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  margin-right: 0.13249211rem;
+  float: left;
+  margin-bottom: 0.07570978rem;
+}
+#part3 .content .case li:nth-child(4n) {
+  margin-right: 0;
+}
+#part3 .content .case li .mask {
+  height: 0.23974763rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#part3 .content .case li .mask h4 {
+  height: 0.13880126rem;
+  padding-top: 0.0126183rem;
+  font-size: 0.06309148rem;
+  color: #fff;
+  width: 0.7192429rem;
+  margin: 0 auto;
+}
+#part3 .content .case li .mask h4 span {
+  line-height: 0.13880126rem;
+}
+#part3 .content .case li .mask h4 span:first-child {
+  float: left;
+  color: #fff;
+}
+#part3 .content .case li .mask h4 span:last-child {
+  float: right;
+  color: #ff5a5f;
+}
+#part3 .content .case li .mask p {
+  width: 0.7192429rem;
+  margin: 0 auto;
+  font-size: 0.05678233rem;
+  color: #b6b6b6;
+}

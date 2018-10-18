@@ -1,0 +1,181 @@
+#part2 {
+  position: relative;
+  overflow: hidden;
+}
+#part2 img {
+  width: 100%;
+  height: 100%;
+}
+#part2 .wz {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+#part2 .wz h2 {
+  padding-top: 1.32492114rem;
+  padding-bottom: 0.12618297rem;
+  font-size: 0.0851735rem;
+  color: #b0b0b1;
+  letter-spacing: 0.04416404rem;
+  text-align: center;
+}
+#part2 .wz .search {
+  width: 2.61829653rem;
+  margin: 0 auto;
+  height: 0.17665615rem;
+  position: relative;
+}
+#part2 .wz .search input {
+  width: 2.46056782rem;
+  height: 0.17665615rem;
+  padding: 0;
+  margin: 0;
+  display: block;
+  border-radius: 0.02839117rem;
+  background: url("../images/academy-i.png") no-repeat center;
+  background-size: cover;
+  border: none;
+  outline: none;
+  padding-left: 0.06309148rem;
+}
+#part2 .wz .search i {
+  position: absolute;
+  width: 0.12933754rem;
+  height: 0.12933754rem;
+  background: url("../images/academy-s.png") no-repeat center;
+  background-size: cover;
+  right: -0.12933754rem;
+  top: 0.03154574rem;
+  cursor: pointer;
+}
+#part2 .wz .search_label {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#part2 .wz .search_label li {
+  float: left;
+  line-height: 0.22397476rem;
+  vertical-align: top;
+  color: #86888b;
+  font-size: 0.05678233rem;
+}
+#part3 {
+  background-color: #f2f2f2;
+}
+#part3 .country {
+  height: 0.49842271rem;
+  width: 3.97476341rem;
+  margin: 0 auto;
+}
+#part3 .country li {
+  width: 0.44164038rem;
+  padding-top: 0.15457413rem;
+  float: left;
+}
+#part3 .country li div {
+  width: 0.24605678rem;
+  height: 0.16719243rem;
+  margin: 0 auto;
+  border-radius: 0.01577287rem;
+  overflow: hidden;
+}
+#part3 .country li div img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#part3 .country li h3 {
+  font-size: 0.07255521rem;
+  line-height: 0.170347rem;
+  text-align: center;
+}
+#part3 .academy_dec {
+  padding-top: 0.34069401rem;
+  padding-bottom: 0.27129338rem;
+  width: 4.05047319rem;
+  margin: 0 auto;
+}
+#part3 .academy_dec > li {
+  padding-bottom: 0.21451104rem;
+}
+#part3 .academy_dec > li:last-child {
+  margin-bottom: 0;
+}
+#part3 .academy_dec > li .dec_wz {
+  background-color: #fff;
+  width: 2.38485804rem;
+  height: 1.40694006rem;
+  box-shadow: -4px 0 0.04731861rem #dddddd, 0 -4px 0.04731861rem #dddddd;
+}
+#part3 .academy_dec > li .dec_wz .dec_in {
+  padding-left: 0.06940063rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top {
+  padding-top: 0.06624606rem;
+  height: 0.39747634rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top img {
+  float: left;
+  width: 0.39432177rem;
+  height: 0.39747634rem;
+  margin-right: 0.06940063rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top .details h3 {
+  line-height: 0.11356467rem;
+  font-size: 0.09148265rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top .details p:nth-of-type(1) {
+  font-size: 0.04416404rem;
+  color: #888787;
+  line-height: 0.13880126rem;
+  padding-bottom: 0.06940063rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top .details p:nth-of-type(2) {
+  font-size: 0.06940063rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top .details p:nth-of-type(2) span {
+  float: left;
+}
+#part3 .academy_dec > li .dec_wz .dec_top .details p:nth-of-type(2) span:nth-of-type(2) {
+  font-size: 0.05362776rem;
+  padding-top: 0.01577287rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_top .details p:nth-of-type(2) i {
+  float: left;
+  background: url("../images/weizhi_03.jpg") no-repeat center;
+  background-size: contain;
+  width: 0.04731861rem;
+  height: 0.05678233rem;
+  margin: 0 0.01577287rem 0 0.07255521rem;
+  padding-top: 0.00946372rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_bot {
+  padding-top: 0.04416404rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_bot > li {
+  height: 0.15457413rem;
+  font-size: 0.06940063rem;
+  overflow: hidden;
+}
+#part3 .academy_dec > li .dec_wz .dec_bot > li h3 {
+  float: left;
+  width: 0.39432177rem;
+  line-height: 0.15457413rem;
+}
+#part3 .academy_dec > li .dec_wz .dec_bot > li p {
+  color: #868686;
+  float: left;
+  line-height: 0.15457413rem;
+}
+#part3 .academy_dec > li .dec_pic {
+  height: 1.11987382rem;
+  width: 1.65615142rem;
+  padding-top: 0.14195584rem;
+}
+#part3 .academy_dec > li .dec_pic img {
+  width: 100%;
+  height: 100%;
+}
